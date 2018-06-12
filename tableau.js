@@ -50,7 +50,14 @@ exo3()
 	{
      alert("les deux nombres sont identiques");
     }
-       
-    
+   
   }
 exo4()
+
+function exo5(loi)
+{
+	var c = 3
+	var n = " loli"
+	alert(n+c);
+}
+exo5()
