@@ -75,6 +75,8 @@ function exo6(mero)
 }
 exo6()
 */
+
+
 function exo7()
 {
 	var ages = prompt ("ages 1");
@@ -131,4 +133,32 @@ var resultat= parseInt(nombre1)+parseInt(nombre2)+parseInt(nombre3);
  return alert(resultat)
 
 }
-exo8()
+exo8() 
+
+
+function boucl()
+{
+	var x=0
+	
+	while(x<10) 
+	{
+		
+		alert(x);
+		x=x+1;
+	}
+	
+}
+boucl()
+
+function boucle()
+{
+
+var l= 0
+var y= 50
+while(l<20)
+{ 
+	alert(y*l);
+	l = l+1;
+}
+}
+boucle()
