@@ -61,3 +61,15 @@ function exo5(loi)
 	alert(n+c);
 }
 exo5()
+
+function exo6(mero)
+{
+	var hy = "bonjour"
+    var nom =  "Ahmed"
+    var prénom = "Dania"
+    var tu = "tu as"
+    var age = 20 
+    var ages = "ans"
+    alert(hy+nom+prénom+tu+age+ages);
+}
+exo6()
