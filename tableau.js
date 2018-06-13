@@ -18,6 +18,7 @@ alert(true);
 }
 exof()*/
 /////////////////////////////////////////////
+/*
 function exo2(vim)
 {
 var vim = "message "
@@ -73,3 +74,61 @@ function exo6(mero)
     alert(hy+nom+prénom+tu+age+ages);
 }
 exo6()
+*/
+function exo7()
+{
+	var ages = prompt ("ages 1");
+    var genre = prompt ("femme || homme" );
+    var h="homme";
+    var f="femme";
+
+	//if (aget>18)
+	
+	if (ages>18)
+
+   {
+		if (genre==h)
+		{
+			alert("vous etes un homme et vous etes majeur");
+		}
+	}	
+	if (ages<=18)
+
+   {
+		if (genre==h)
+		{
+			alert("vous etes un homme et vous etes mineur");
+		}
+	}
+	if (ages>18)
+
+   {
+		if (genre==f)
+		{
+			alert("vous etes une femme et vous etes mineur");
+		}
+	}
+	if (ages<=18)
+
+   {
+		if (genre==f)
+		{
+			alert("vous etes une femme et vous etes majeur");
+		}
+	}
+}	
+exo7()
+
+function exo8()
+{
+//  totale= n1+n2+n3; //calcule de la somme
+    
+
+var nombre1 = prompt("nombre 1");
+var nombre2 = prompt (" nombre 2");
+var nombre3 = prompt (" nombre 3");
+var resultat= parseInt(nombre1)+parseInt(nombre2)+parseInt(nombre3);
+ return alert(resultat)
+
+}
+exo8()
