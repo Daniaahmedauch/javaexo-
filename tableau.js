@@ -1,7 +1,5 @@
-/*
-	
-	var mois = ['janvier', 'fevrier', 'mars', 'Avril ' ,'citron', 'mai', 'juin','juillet','août','sêptembre','octobre','novembre','decembre'] ; // première méthode
-   
+
+/*   
 alert(mois[2]); // Affiche "mars"
 
     alert(mois[5]); // Affiche ""
@@ -16,9 +14,9 @@ function exo1()
 {
 alert(true);
 }
-exof()*/
+exof()
 /////////////////////////////////////////////
-/*
+
 function exo2(vim)
 {
 var vim = "message "
@@ -74,7 +72,7 @@ function exo6(mero)
     alert(hy+nom+prénom+tu+age+ages);
 }
 exo6()
-*/
+
 
 
 function exo7()
@@ -162,3 +160,15 @@ while(l<20)
 }
 }
 boucle()
+*/
+function Dania()
+{
+	var m= 100;
+	var t= 68;
+	while(m>=10)
+	{
+		alert(m*t);		
+		m = m-1;
+	}
+}
+Dania()
