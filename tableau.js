@@ -1,4 +1,6 @@
 
+
+
 /*   
 alert(mois[2]); // Affiche "mars"
 
@@ -160,7 +162,7 @@ while(l<20)
 }
 }
 boucle()
-*/
+
 function Dania()
 {
 	var m= 100;
@@ -172,3 +174,61 @@ function Dania()
 	}
 }
 Dania()
+*/
+
+function mama()
+{
+	var a = 1;
+
+	//var b = 0.5;
+	while (a<10)
+		{
+	alert(a)
+	a= a+0.5;
+		}
+}
+mama()
+
+function papa() 
+{
+	var z = 1
+	while (z<15)
+	{
+		alert("On y arrive presque")
+		z=z+1;
+	}
+}
+papa()
+
+function sucre()
+{
+	 var o=20
+	 while (o>=0)
+	 {
+	 	alert("C'est presque bon")
+	 	o=o-1;
+	 }
+}
+sucre()
+
+function papa3() 
+{
+	var z = 100
+	while (z>=1)
+	{
+		alert("On tient le bon bout")
+		z=z-15;
+	}
+}
+papa3()
+function sucre33()
+{
+	 var o=200
+	 while (o>=0)
+	 {
+	 	alert("Enfin !!!!.")
+	 	o=o-12;
+	 }
+}
+sucre33()
+ 
